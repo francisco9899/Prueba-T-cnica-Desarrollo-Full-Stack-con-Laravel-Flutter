@@ -1,0 +1,13 @@
+Consideraciones Adicionales para el Postulante
+Al evaluar al postulante, además del código, considera lo siguiente:
+Archivo README.md: El repositorio debe incluir un archivo README.md en la raíz que explique:
+El propósito de la aplicación.
+Cómo configurar y ejecutar el backend (Laravel).
+Cómo configurar y ejecutar el frontend web (si es diferente de la ejecución del backend).
+Cómo configurar y ejecutar la aplicación móvil (Flutter).
+Cualquier otra información relevante (ej. dependencias, variables de entorno).
+Estructura de Carpetas: La organización de las carpetas es clara y lógica.
+composer.json y pubspec.yaml: Deben estar bien definidos, con las dependencias necesarias.
+Archivos .env: El archivo .env.example debe estar presente en el backend, mostrando las variables de entorno necesarias (como API_URL para el frontend web y el móvil). El archivo .env real (con datos sensibles) no debe estar en el repositorio.
+Commits: Los mensajes de commit deben ser descriptivos y reflejar el progreso (ej. "feat: Implement CRUD tasks API", "fix: Solve CORS issues", "feat: Add task list view in Flutter").
+Documentación: Si bien el código debe ser autoexplicativo, comentarios clave en partes complejas o decisiones de diseño importantes son un plus.
